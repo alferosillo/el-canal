@@ -1,0 +1,57 @@
+body{
+background-color:#5e2129;
+   
+}
+
+.container{
+width: 90%;
+    margin: 0 auto;
+
+}
+
+.textoCanal{
+    text-align: center;
+color: rgba(250,250,250,0.5);
+    
+
+}
+
+.historia{
+    background-image: url(/imag/elsuelo.jpg);
+    background-size: cover;
+    color:aliceblue;
+}
+div{
+	color: aliceblue; 
+    width:200;
+    height: 200;
+    text-align: left;
+
+
+}  
+.galeria{
+text-align: center;
+ padding:1em;
+}
+.galeria img{
+
+ padding:1em;
+}
+p{
+color: white;
+
+}
+ol{
+color: antiquewhite
+}
+a{
+color: antiquewhite;
+}
+
+
+.tramos{
+
+background-size: cover;
+color:blue;
+
+}
