@@ -1,0 +1,85 @@
+/*reset*/
+*{
+
+margin:0;
+padding:0;
+    box-sizing: border-box;
+}
+/*general*/
+
+body{
+background-color:#5e2129;
+    font-family: cursive;
+   
+}
+
+.container{
+    max-width: 1000px;
+width: 90%;
+    margin: 0 auto;
+
+}
+
+
+
+.historia{
+    background-image: url(/imag/elsuelo.jpg);
+    background-size: cover;
+    color:aliceblue;
+}
+div.caja{
+	color: aliceblue; 
+    width:200;
+    height: 200;
+    text-align: left;
+
+
+} 
+.asunto{
+
+font-size: 40px;
+}
+
+.logotipo img,.cabecera img{
+width:100%;
+    
+}
+h1{
+font-family: fantasy;
+font-size: 90px;
+text-shadow: 2px 2px #b88;
+}
+p{
+
+
+}
+
+
+.galeria{
+text-align: center;
+ padding:1em;
+}
+.galeria img{
+
+ padding:1em;
+}
+p{
+font-family: cursive;
+color: white;
+font-size: 50px;
+
+}
+ol{
+color: antiquewhite
+}
+a{
+color: antiquewhite;
+}
+
+
+.tramos{
+
+background-size: cover;
+color:blue;
+
+}

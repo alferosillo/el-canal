@@ -1,57 +1,91 @@
+*reset*/
+*{
+
+margin:0;
+padding:0;
+    box-sizing: border-box;
+}
+/*general*/
+
 body{
-background-color:#5e2129;
+background-image:(imag/iglesia.JPG);
+    color:white;
+    font-family: cursive;
    
+}
+a{
+    color:beige;
 }
 
 .container{
+    max-width: 900px;
 width: 90%;
     margin: 0 auto;
 
 }
+/*imagenes primera pagina*/
+header{}
 
-.textoCanal{
-    text-align: center;
-color: rgba(250,250,250,0.5);
+.logotipo{
+width:  78%;
+display:inline-block;
+vertical-align: middle;
+}
+.escudo{
+width: 20%;
+display:inline-block;
+vertical-align:middle;
     
-
 }
 
-.historia{
-    background-image: url(/imag/elsuelo.jpg);
-    background-size: cover;
-    color:aliceblue;
+
+.logotipo img{
+width:100%;
 }
-div{
-	color: aliceblue; 
-    width:200;
-    height: 200;
-    text-align: left;
+.cabecera{
+    margin-top:70px;
+
+}
+.cabecera img{
+    width:100%;
+}
 
 
-}  
-.galeria{
+.asunto{
+    font-style: italic;
+    text-align: center;
+    text-transform: uppercase;
+}
+.menu{
+    list-style-type: none;
+}
+.menu li {
+    margin-bottom:1em;
+    padding:.5em;
+    text-align: center;
+    background-color:transparent;
+ 
+}
+.menu li a {
+       text-decoration: none;
+    color:blacK;
+    }
+/*pagina historia*/
+h1{
 text-align: center;
- padding:1em;
+text-shadow: 2px 2px #b99;
+font-size: 3em;
+}
+.historia img{
+width:100%;
+    padding-bottom: 1em;
 }
 .galeria img{
-
- padding:1em;
+width:39%;
+padding: 1em;
+    vertical-align: top;
 }
 p{
-color: white;
-
+text-align: center;
 }
-ol{
-color: antiquewhite
-}
-a{
-color: antiquewhite;
-}
-
-
-.tramos{
-
-background-size: cover;
-color:blue;
-
-}
+/*página de esculturas*/
