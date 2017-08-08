@@ -8,7 +8,7 @@ padding:0;
 /*general*/
 
 body{
-background-image:(imag/iglesia.JPG);
+background-color:#808000;
     color:white;
     font-family: cursive;
    
@@ -30,11 +30,13 @@ header{}
 width:  78%;
 display:inline-block;
 vertical-align: middle;
+
 }
 .escudo{
 width: 20%;
 display:inline-block;
 vertical-align:middle;
+
     
 }
 
