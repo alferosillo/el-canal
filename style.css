@@ -8,13 +8,18 @@ padding:0;
 /*general*/
 
 body{
-background-color:#808000;
+
+background-image:url(imag/uvas.png);
     color:white;
     font-family: cursive;
    
 }
 a{
     color:beige;
+}
+.cabecera{
+border:solid 20px #C2FF33;
+
 }
 
 .container{
@@ -46,10 +51,12 @@ width:100%;
 }
 .cabecera{
     margin-top:70px;
+    border:solid 20px #C2FF33; 
 
 }
 .cabecera img{
     width:100%;
+    
 }
 
 
@@ -77,17 +84,27 @@ h1{
 text-align: center;
 text-shadow: 2px 2px #b99;
 font-size: 3em;
+color: darkgreen;
+}
+img{
+border:solid 8px #C2FF33;
 }
 .historia img{
 width:100%;
     padding-bottom: 1em;
+      vertical-align: top;
+ 
 }
 .galeria img{
 width:39%;
 padding: 1em;
     vertical-align: top;
+border:solid 8px #C2FF33;
+overflow: hidden;
 }
 p{
 text-align: center;
-}
+color: green;
+} 
+
 /*página de esculturas*/
